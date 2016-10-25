@@ -1,4 +1,54 @@
-let s:ionic2Directives = join([
+let s:ionic2Tags = join([
+      \ "ion-nav",
+      \ "ion-content",
+      \ "ion-menu",
+      \ "ion-icon",
+      \ "ion-item",
+      \ "ion-badge",
+      \ "ion-header",
+      \ "ion-buttons",
+      \ "ion-navbar",
+      \ "ion-list",
+      \ "ion-card",
+      \ "ion-card-header",
+      \ "ion-card-content",
+      \ "ion-card-title",
+      \ "ion-avatar",
+      \ "ion-row",
+      \ "ion-col",
+      \ "ion-fab",
+      \ "ion-label",
+      \ "ion-checkbox",
+      \ "ion-datetime",
+      \ "ion-fab",
+      \ "ion-fab-list",
+      \ "ion-grid",
+      \ "ion-input",
+      \ "ion-item-group",
+      \ "ion-item-divider",
+      \ "ion-list-header",
+      \ "ion-item-sliding",
+      \ "ion-item-options",
+      \ "ion-thumbnail",
+      \ "ion-toolbar",
+      \ "ion-radio",
+      \ "ion-range",
+      \ "ion-searchbar",
+      \ "ion-segment",
+      \ "ion-segment-button",
+      \ "ion-select",
+      \ "ion-option",
+      \ "ion-slides",
+      \ "ion-slide",
+      \ "ion-tabs",
+      \ "ion-tab",
+      \ "ion-title",
+      \ "ion-toggle",
+      \ "ion-footer",
+      \ "ion-spinner"
+      \ ], "\\|")
+
+let s:ionic2Attributes = join([
       \ "navPush",
       \ "navPop",
       \ "navParams",
@@ -119,8 +169,13 @@ let s:ionic2Directives = join([
       \ "ngSubmit",
       \ "formGroup",
       \ "formControlName",
+      \ "formControl",
       \ "menuToggle",
-      \ "input"
+      \ "input",
+      \ "selectedIndex",
+      \ "tabsHighlight",
+      \ "rootParams"
       \ ], "\\|")
 
-exec 'syntax match htmlArg contained "\<\('. s:ionic2Directives .'\)\>"'
+exec 'syntax match htmlTagName contained "\<\('. s:ionic2Tags .'\)\>"'
+exec 'syntax match htmlArg contained "\<\('. s:ionic2Attributes .'\)\>"'
