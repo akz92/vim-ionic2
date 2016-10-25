@@ -21,6 +21,7 @@ let s:ionic2Directives = join([
       \ "item-left",
       \ "ion-item",
       \ "primary",
+      \ "secondary"
       \ "center",
       \ "text-center",
       \ "right",
