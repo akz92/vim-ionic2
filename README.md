@@ -9,5 +9,5 @@ Vim plugin that adds syntax highlighting for Ionic 2's html tags and attributes
 Add the following to your **~/.vimrc** file:
 
 ```vim
-Plug "akz92/ionic2-syntax.vim"
+Plug "akz92/vim-ionic2"
 ```
