@@ -1,5 +1,7 @@
 # Ionic 2 syntax highlight for Vim
 
+Vim plugin that adds syntax highlighting for Ionic 2's html tags and attributes
+
 ## Installing
 
 ### Using [vim-plug](https://github.com/junegunn/vim-plug)
