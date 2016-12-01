@@ -174,7 +174,9 @@ let s:ionic2Attributes = join([
       \ "input",
       \ "selectedIndex",
       \ "tabsHighlight",
-      \ "rootParams"
+      \ "rootParams",
+      \ "interface",
+      \ "ngModelChange"
       \ ], "\\|")
 
 exec 'syntax match htmlTagName contained "\<ion-\('. s:ionic2Tags .'\)\>"'
