@@ -9,10 +9,11 @@ let s:ionic2Tags = join([
       \ "buttons",
       \ "navbar",
       \ "list",
-      \ "card",
+      \ "card-content",
       \ "card-header",
       \ "card-content",
       \ "card-title",
+      \ "card",
       \ "avatar",
       \ "row",
       \ "col",
@@ -20,8 +21,8 @@ let s:ionic2Tags = join([
       \ "label",
       \ "checkbox",
       \ "datetime",
-      \ "fab",
       \ "fab-list",
+      \ "fab",
       \ "grid",
       \ "input",
       \ "item-group",
@@ -34,8 +35,8 @@ let s:ionic2Tags = join([
       \ "radio",
       \ "range",
       \ "searchbar",
-      \ "segment",
       \ "segment-button",
+      \ "segment",
       \ "select",
       \ "option",
       \ "slides",
@@ -45,7 +46,9 @@ let s:ionic2Tags = join([
       \ "title",
       \ "toggle",
       \ "footer",
-      \ "spinner"
+      \ "spinner",
+      \ "refresher-content",
+      \ "refresher"
       \ ], "\\|")
 
 let s:ionic2Attributes = join([
@@ -176,7 +179,17 @@ let s:ionic2Attributes = join([
       \ "tabsHighlight",
       \ "rootParams",
       \ "interface",
-      \ "ngModelChange"
+      \ "ngModelChange",
+      \ "menuClose",
+      \ "swipeBackEnabled",
+      \ "ionRefresh",
+      \ "enabled",
+      \ "pullingText",
+      \ "pullingIcon",
+      \ "showWhen",
+      \ "hideBackButton",
+      \ "ngClass",
+      \ "innerHTML"
       \ ], "\\|")
 
 exec 'syntax match htmlTagName contained "\<ion-\('. s:ionic2Tags .'\)\>"'
