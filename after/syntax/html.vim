@@ -48,7 +48,8 @@ let s:ionic2Tags = join([
       \ "footer",
       \ "spinner",
       \ "refresher-content",
-      \ "refresher"
+      \ "refresher",
+      \ "note"
       \ ], "\\|")
 
 let s:ionic2Attributes = join([
