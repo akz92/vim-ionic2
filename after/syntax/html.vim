@@ -164,6 +164,8 @@ let s:ionic2Attributes = join([
       \ "range-left",
       \ "range-right",
       \ "ionInput",
+      \ "ionCancel",
+      \ "showCancelButton",
       \ "ngSwitch",
       \ "ngSwitchCase",
       \ "cancelText",
